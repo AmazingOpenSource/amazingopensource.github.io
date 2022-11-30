@@ -1,0 +1,36 @@
+name: Deploy page
+on:
+  schedule:
+    - cron:  '0 22 * * *'    # 国际标准时间22点（北京时间早上6点发） 
+  push:
+    branches:    
+      - main
+jobs:
+  push:
+      runs-on: ${{ matrix.operating-system }}
+      strategy:
+        matrix:
+          # in this example, there is a newer version already installed, 3.7.7, so the older version will be downloaded
+          operating-system: ['ubuntu-20.04']
+      steps:
+      - uses: actions/checkout@v3 # Checking out the repo
+      - name: Setup Node 16.x
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16.x
+          cache: npm
+
+      - name: Install dependencies
+        run: yarn install
+
+      - name: Build README.md
+        run: node main.js
+      
+      - name: Commit and push if changed   # 更新README.md
+        run: |
+          git diff
+          git config --global user.email "bin@aha.run"
+          git config --global user.name "Aha-run"
+          git add README.md
+          git commit -m "Github Action auto Updated"
+          git push
