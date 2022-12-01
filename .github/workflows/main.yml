@@ -26,11 +26,22 @@ jobs:
       - name: Build README.md
         run: node main.js
       
-      - name: Commit and push if changed   # 更新README.md
+      - name: Commit and push if changed   # 更新html
         run: |
           git diff
           git config --global user.email "bin@aha.run"
           git config --global user.name "Aha-run"
-          git add README.md
+          git add .
           git commit -m "Github Action auto Updated"
           git push
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v2
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          # Upload entire repository
+          path: '.'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1
