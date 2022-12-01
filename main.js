@@ -46,7 +46,7 @@ csv.parseFile("./repositories.csv", { headers: true })
         // <td width='400'>Description</td>
         // <td>Status</td>
         // </tr>${post}</table>`;
-        post = `# The Weekly Open-Source Project \n` + post
+        post = `# The Weekly Amazing Open-Source !! \n` + post
 
         if (fs.existsSync(MARKDOWN_PATH)) {
             fs.rmSync(MARKDOWN_PATH)
