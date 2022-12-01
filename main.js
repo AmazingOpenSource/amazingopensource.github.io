@@ -14,7 +14,7 @@ const renderMarkdown =async ({ date, name, url, description }) => {
     let line = '';
     let userRepo=null;
     if (currentTime !== time) {
-        line += `## ${time} \n`;
+        line += `## ${time}</h3>`;
         currentTime = time;
      }
      if(url.match(/github.com/)){
@@ -24,9 +24,9 @@ const renderMarkdown =async ({ date, name, url, description }) => {
     line=line
     + `* [${name}](${url}) <br/>`
     + `${description} <br/>`
-        + `<a style="margin-right:4px;" href="#"><img height='13px' src="https://img.shields.io/github/license${userRepo}?display_timestamp=committer"></a>`
+        + ` <p><a style="margin-right:4px;" href="#"><img height='13px' src="https://img.shields.io/github/license${userRepo}?display_timestamp=committer"></a>`
     + `<a style="margin-right:4px;" href="#"><img  height='13px'  src="https://img.shields.io/github/stars${userRepo}?style=flat"></a>`
-    + `<a  style="margin-right:4px;" href="#"><img  height='13px'  src="https://img.shields.io/github/last-commit${userRepo}?display_timestamp=committer"></a> \n`
+    + `<a  style="margin-right:4px;" href="#"><img  height='13px'  src="https://img.shields.io/github/last-commit${userRepo}?display_timestamp=committer"></a></p>`
     return line;
 }
 
@@ -46,7 +46,13 @@ csv.parseFile("./repositories.csv", { headers: true })
         // <td width='400'>Description</td>
         // <td>Status</td>
         // </tr>${post}</table>`;
-        post = `# The Weekly Amazing Open-Source !! \n` + post
+        
+        
+        const hello = `<div align="center" style="display:flex;flex-direction:column;"><h2>The Weekly Amazing Open-Source.</h2><p>Giving Thanks to Open Source Software Contributors.</p></div>`
+        post = 
+        `${hello}
+            
+         \n ${post}`
 
         if (fs.existsSync(MARKDOWN_PATH)) {
             fs.rmSync(MARKDOWN_PATH)
