@@ -14,7 +14,7 @@ const renderMarkdown =async ({ date, name, url, description }) => {
     let line = '';
     let userRepo=null;
     if (currentTime !== time) {
-        line += `## ${time}</h3>`;
+        line += `### ${time}</h3>`;
         currentTime = time;
      }
      if(url.match(/github.com/)){
@@ -48,7 +48,7 @@ csv.parseFile("./repositories.csv", { headers: true })
         // </tr>${post}</table>`;
         
         
-        const hello = `<div align="center" style="display:flex;flex-direction:column;"><h2>The Weekly Amazing Open-Source.</h2><p>Giving Thanks to Open Source Software Contributors.</p></div>`
+        const hello = `<div align="center" style="display:flex;flex-direction:column;"><h3 style="font-size:34px;">The Weekly Amazing Open-Source.</h3><p>Giving Thanks to Open Source Software Contributors.</p></div>`
         post = 
         `${hello}
             
