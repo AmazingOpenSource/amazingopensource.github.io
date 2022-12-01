@@ -10,32 +10,23 @@ const renderMarkdown =async ({ date, name, url, description }) => {
     
     const week = moment(date).weeksInYear();
     const year = moment(date).year();
-    const time = `${year}年 第${week}周 \n`;
+    const time = `${year}年 第${week}周`;
     let line = '';
     let userRepo=null;
-    // if (currentTime !== time) {
-    //     line += `<h2>${time}</h2>`;
-    //     currentTime = time;
-    //  }
+    if (currentTime !== time) {
+        line += `## ${time} \n`;
+        currentTime = time;
+     }
      if(url.match(/github.com/)){
         userRepo=url.split('https://github.com')[1]
      }
 
-    line = line
-    + "<tr>"
-    + "<td>"
-    + name
-    + "</td>"
-    + "<td>"
-    + description
-    + "</td>"
-    + "<td>"
-    + `<a style="margin-right:4px;" href="#"><img src="https://img.shields.io/github/license${userRepo}?display_timestamp=committer"></a>`
-    + `<a style="margin-right:4px;" href="#"><img src="https://img.shields.io/github/stars${userRepo}?style=flat"></a>`
-    + `<a  style="margin-right:4px;" href="#"><img src="https://img.shields.io/github/last-commit${userRepo}?display_timestamp=committer"></a>`
-    + "</td>"
-   
-    + "</tr>"
+    line=line
+    + `* [${name}](${url}) <br/>`
+    + `${description} <br/>`
+        + `<a style="margin-right:4px;" href="#"><img height='13px' src="https://img.shields.io/github/license${userRepo}?display_timestamp=committer"></a>`
+    + `<a style="margin-right:4px;" href="#"><img  height='13px'  src="https://img.shields.io/github/stars${userRepo}?style=flat"></a>`
+    + `<a  style="margin-right:4px;" href="#"><img  height='13px'  src="https://img.shields.io/github/last-commit${userRepo}?display_timestamp=committer"></a> \n`
     return line;
 }
 
@@ -50,11 +41,12 @@ csv.parseFile("./repositories.csv", { headers: true })
     .on('end', async rowCount => {
         // console.log(`Parsed ${rowCount} rows`)
 
-        post = `<table><tr>
-        <td width='100'>Name</td>
-        <td width='400'>Description</td>
-        <td>Status</td>
-        </tr>${post}</table>`;
+        // post = `<table><tr>
+        // <td width='100'>Name</td>
+        // <td width='400'>Description</td>
+        // <td>Status</td>
+        // </tr>${post}</table>`;
+        post = `# The Weekly Open-Source Project \n` + post
 
         if (fs.existsSync(MARKDOWN_PATH)) {
             fs.rmSync(MARKDOWN_PATH)
