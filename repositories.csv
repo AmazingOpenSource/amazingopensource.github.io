@@ -11,3 +11,4 @@ date,name,url,description
 2022-12-01,soketi,https://github.com/soketi/soketi,简单、快速、有弹性的开源 WebSockets 服务器
 2022-12-01,gotosocial,https://github.com/superseriousbusiness/gotosocial,快速，有趣，ActivityPub 服务器，Go语言开发
 2022-12-02,AFFiNE,https://github.com/toeverything/AFFiNE,AFFINE是一个新一代的知识库，它将计划、分类和创造结合在一起，隐私第一、开源，Notion & Miro 替代品
+2022-12-02,Sonic,https://github.com/go-sonic/sonic,Sonic是一个用Golang开发的博客平台，高效快速，灵感来自Halo
