@@ -20,3 +20,5 @@ date,name,url,description
 2022-12-03,Hitomi-Downloader,https://github.com/KurtBestor/Hitomi-Downloader,从多平台下载images/videos/music/text文件的客户端工具
 2022-12-03,OSS Insight,https://github.com/pingcap/ossinsight,分析数十亿GitHub事件，从中分析仓库或开发人员，可以比较GitHub任意两个仓库
 2022-12-03,Cerebro,https://github.com/cerebroapp/cerebro,开源跨平台的效率软件Cerebro
+2022-12-03,pocketbase,仅一个文件的开源后端。将 SQLite 数据库、接口服务、登录认证、管理后台等服务器端的功能，做成一个开箱即用的可执行文件。让原本不懂后端开发的用户，也可以通过用户界面快速构建起接口服务
+
