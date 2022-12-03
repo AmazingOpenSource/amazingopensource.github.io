@@ -1,24 +1,25 @@
 date,name,url,description
-2022-12-01,medusa,https://github.com/medusajs/medusa,开源的Shopify解决方案，为开发人员构建的开源可组合商务引擎
-2022-12-01,runtipi,https://github.com/meienberger/runtipi,Tipi是每个人的家庭服务器！一个命令设置，一键安装您最喜欢的自托管应用程序
-2022-12-01,excalidraw,https://github.com/excalidraw/excalidraw,用于素描手绘图的虚拟白板
-2022-12-01,coolify,https://github.com/coollabsio/coolify,一种开源和可自托管的 Heroku / Netlify 替代方案
-2022-12-01,casdoor,https://github.com/casdoor/casdoor,一个支持 OAuth 2.0、 OIDC、 SAML 和 CAS 的开源身份和访问管理(IAM)/单点登录(SSO)平台
-2022-12-01,lettura,https://github.com/zhanglun/lettura,用于 macOS 和 Window 的免费开源RSS阅读器
-2022-12-01,ntfy,https://github.com/binwiederhier/ntfy,推送通知发送到你的手机或桌面
-2022-12-01,answer,https://github.com/answerdev/answer,开源软件知识社区
-2022-12-01,uptime-kuma,https://github.com/louislam/uptime-kuma,一个奇特的自托管监控工具
-2022-12-01,soketi,https://github.com/soketi/soketi,简单、快速、有弹性的开源 WebSockets 服务器
-2022-12-01,gotosocial,https://github.com/superseriousbusiness/gotosocial,快速，有趣，ActivityPub 服务器，Go语言开发
-2022-12-02,AFFiNE,https://github.com/toeverything/AFFiNE,AFFINE是一个新一代的知识库，它将计划、分类和创造结合在一起，隐私第一、开源，Notion & Miro 替代品
-2022-12-02,Sonic,https://github.com/go-sonic/sonic,Sonic是一个用Golang开发的博客平台，高效快速，灵感来自Halo
-2022-12-02,Dub,https://github.com/steven-tey/dub,可自定义域名的开源短链服务
-2022-12-02,Logto,https://github.com/logto-io/logto,帮助你在数分钟内构建登录注册体验和用户身份体系的开源项目   
-2022-12-03,goatcounter,https://github.com/arp242/goatcounter,网络流量分析服务，替代Google Analytics或者Matomo
-2022-12-03,Kutt,https://github.com/thedevs-network/kutt,Kutt是一个支持自定义域名的短链服务
-2022-12-03,gotify,https://github.com/gotify/server,消息推送服务
-2022-12-03,Hitomi-Downloader,https://github.com/KurtBestor/Hitomi-Downloader,从多平台下载images/videos/music/text文件的客户端工具
-2022-12-03,OSS Insight,https://github.com/pingcap/ossinsight,分析数十亿GitHub事件，从中分析仓库或开发人员，可以比较GitHub任意两个仓库
-2022-12-03,Cerebro,https://github.com/cerebroapp/cerebro,开源跨平台的效率软件Cerebro
-2022-12-03,pocketbase,仅一个文件的开源后端。将 SQLite 数据库、接口服务、登录认证、管理后台等服务器端的功能，做成一个开箱即用的可执行文件。让原本不懂后端开发的用户，也可以通过用户界面快速构建起接口服务
+2022-12-01,medusa,https://github.com/medusajs/medusa,开源的Shopify解决方案，为开发人员构建的开源可组合商务引擎。
+2022-12-01,runtipi,https://github.com/meienberger/runtipi,Tipi是每个人的家庭服务器！一个命令设置，一键安装您最喜欢的自托管应用程序。
+2022-12-01,excalidraw,https://github.com/excalidraw/excalidraw,用于素描手绘图的虚拟白板。
+2022-12-01,coolify,https://github.com/coollabsio/coolify,一种开源和可自托管的 Heroku / Netlify 替代方案。
+2022-12-01,casdoor,https://github.com/casdoor/casdoor,一个支持 OAuth 2.0、 OIDC、 SAML 和 CAS 的开源身份和访问管理(IAM)/单点登录(SSO)平台。
+2022-12-01,lettura,https://github.com/zhanglun/lettura,用于 macOS 和 Window 的免费开源RSS阅读器。
+2022-12-01,ntfy,https://github.com/binwiederhier/ntfy,推送通知发送到你的手机或桌面。
+2022-12-01,answer,https://github.com/answerdev/answer,开源软件知识社区。
+2022-12-01,uptime-kuma,https://github.com/louislam/uptime-kuma,一个奇特的自托管监控工具。
+2022-12-01,soketi,https://github.com/soketi/soketi,简单、快速、有弹性的开源 WebSockets 服务器。
+2022-12-01,gotosocial,https://github.com/superseriousbusiness/gotosocial,快速，有趣，ActivityPub 服务器，Go语言开发。
+2022-12-02,AFFiNE,https://github.com/toeverything/AFFiNE,AFFINE是一个新一代的知识库，它将计划、分类和创造结合在一起，隐私第一、开源，Notion & Miro 替代品。
+2022-12-02,Sonic,https://github.com/go-sonic/sonic,Sonic是一个用Golang开发的博客平台，高效快速，灵感来自Halo。
+2022-12-02,Dub,https://github.com/steven-tey/dub,可自定义域名的开源短链服务。
+2022-12-02,Logto,https://github.com/logto-io/logto,帮助你在数分钟内构建登录注册体验和用户身份体系的开源项目。
+2022-12-03,goatcounter,https://github.com/arp242/goatcounter,网络流量分析服务，替代Google Analytics或者Matomo。
+2022-12-03,Kutt,https://github.com/thedevs-network/kutt,Kutt是一个支持自定义域名的短链服务。
+2022-12-03,gotify,https://github.com/gotify/server,消息推送服务。
+2022-12-03,Hitomi-Downloader,https://github.com/KurtBestor/Hitomi-Downloader,从多平台下载images/videos/music/text文件的客户端工具。
+2022-12-03,OSS Insight,https://github.com/pingcap/ossinsight,分析数十亿GitHub事件，从中分析仓库或开发人员，可以比较GitHub任意两个仓库。
+2022-12-03,Cerebro,https://github.com/cerebroapp/cerebro,开源跨平台的效率软件Cerebro。
+2022-12-03,pocketbase,https://github.com/pocketbase/pocketbase,仅一个文件的开源后端。将 SQLite 数据库、接口服务、登录认证、管理后台等服务器端的功能，做成一个开箱即用的可执行文件。让原本不懂后端开发的用户，也可以通过用户界面快速构建起接口服务。
+2022-12-03,Rocket.Chat,https://github.com/RocketChat/Rocket.Chat,一款可自由定制的企业级开源通信平台。功能丰富的通信平台，可自托管做为 Slack 的开源替代品。支持创建频道、团队和讨论等多种不同功能的群聊，消息支持图片、文件、视频和语音，拥有包括 Windows、Linux、macOS、Android 和 iOS 在内的多种客户端。
 
