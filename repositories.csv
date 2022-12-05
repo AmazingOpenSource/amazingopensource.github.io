@@ -31,3 +31,6 @@ date,name,url,description
 2022-12-05,Appsmith,https://github.com/appsmithorg/appsmith,Appsmith是一个用于构建、部署和维护内部应用程序的开源平台。您可以构建任何东西，从简单的 CRUD 应用程序、管理面板、仪表板到自定义业务应用程序和复杂的多步骤工作流。
 2022-12-05,act,https://github.com/nektos/act,可以在本地测试运行GitHub Actions。
 2022-12-05,Uptime Kuma,https://github.com/louislam/uptime-kuma,可独立部署的监控工具。
+2022-12-05,mercure,https://github.com/dunglas/mercure,一个开放、简单、快速、可靠、高效的实时通信解决方案。
+2022-12-05,bbs-go,https://github.com/mlogclub/bbs-go,基于Golang的开源社区系统。
+2022-12-05,Lenstube,https://github.com/lenstube-xyz/lenstube,去中心化的视频分享社交媒体平台。
