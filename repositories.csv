@@ -24,3 +24,7 @@ date,name,url,description
 2022-12-03,Rocket.Chat,https://github.com/RocketChat/Rocket.Chat,一款可自由定制的企业级开源通信平台。功能丰富的通信平台，可自托管做为 Slack 的开源替代品。支持创建频道、团队和讨论等多种不同功能的群聊，消息支持图片、文件、视频和语音，拥有包括 Windows、Linux、macOS、Android 和 iOS 在内的多种客户端。
 2022-12-03,cypress,https://github.com/cypress-io/cypress,基于 JavaScript 的下一代前端测试工具。主要用于浏览器端到端测试的自动化工具，端到端(E2E)测试就是站在用户的角度，模拟实际使用场景的测试方式。Cypress 目前已成主流浏览器端到端测试工具，它运行速度快、上手简单，支持图形化界面可实时观察执行情况，以及截屏和视频记录测试结果。
 2022-12-03,slidev,https://github.com/slidevjs/slidev,专为程序员打造的演示文稿工具。该项目是基于 Web 的幻灯片制作和演示工具，让用户可以使用 纯文本+Markdown 语法制作幻灯片，支持导出为 PDF 或 PNG 格式的文件，或以单页面展示幻灯片。对于大多数不擅长做 PPT 的程序员，基于提供的现成主题也可以制作出看起来不错的演示文稿。
+2022-12-05,Pake,https://github.com/tw93/Pake,很简单的用 Rust 打包网页生成很小的桌面 App。
+2022-12-05,Halo,https://github.com/halo-dev/halo,好用又强大的开源建站工具。
+2022-12-05,青龙,https://github.com/whyour/qinglong,支持python3、javaScript、shell、typescript 的定时任务管理面板。
+2022-12-05,AKShare,https://github.com/akfamily/akshare,开源财经数据接口库。
